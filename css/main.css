@@ -1,0 +1,37 @@
+body { 
+    /* Image Location */ 
+    background-image: url("./img/bg.jpg"); 
+  
+    /* Background image is centered vertically and horizontally at all times */ 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-color: #464646; 
+    /* Font Colour */ 
+    color:white; 
+} 
+
+.container {
+    position: fixed;
+    top: 30vh;
+    right: 80px;
+    padding: 0px 80px;
+
+}
+.title {
+    color:white; 
+    font-size:80px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.subtitle {
+    color:white; 
+    font-weight: bold;
+    font-size:19.5px;
+}
+
+.link {
+    color: #1e7a8a;
+}
